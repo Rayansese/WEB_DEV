@@ -1,0 +1,44 @@
+div {
+  width: 200px;
+  justify-content: space-evenly; 
+  margin:10px 30px;
+  color: white;
+  align-items: center;
+}
+
+.parent {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  background-color: #eee;
+}
+.one {
+  
+  background-color: #673AB7;
+  display: inline-flex;
+  align-self: flex-end;
+  height: 50%;
+  margin-left: 10px;
+}
+.two {
+  flex-flow: 1;
+  background-color: #FF9800;
+  display: inline-flex;
+  align-self: flex-start;
+  height: 50%;
+}
+.three {
+  flex-flow: 1;
+  background-color: #8BC34A;
+  display: inline-flex;
+  align-self: flex-end;
+  height: 50%;
+}
+.four {
+  flex-flow: 1;
+  background-color: #795548;
+  display: inline-flex;
+  margin-right: 10px;
+  align-self: flex-start;
+  height: 50%;
+}

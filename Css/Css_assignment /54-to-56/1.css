@@ -1,0 +1,64 @@
+/*div:after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  background-color: red;
+  height: 20px;
+  background-image: linear-gradient(
+  to right,
+  #F44336 20%,
+  #2196F3 20%,
+  #2196F3 40%,
+  #4CAF50 40%,
+  #4CAF50 60%,
+  #E91E63 60%,
+  #E91E63 80%,
+  #673AB7 80%
+  
+  
+  ) 1 ; 
+  order: 5;
+  /*
+  background-image: linear-gradient(
+    to right,
+    #2980b9 20%,
+    #27ae60 20%,
+    #27ae60 40%,
+    #d35400 40%,
+    #d35400 60%,
+    #8e44ad 60%,
+    #8e44ad 80%,
+    #c0392b 80%
+  );
+  
+  
+}
+*/
+
+div {
+  width: 600px;
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  position: relative;
+  height: 50px;
+/*  order: 3; */
+border: 10px solid;
+   border-image: linear-gradient(
+  to right,
+  #F44336 20%,
+  #2196F3 20%,
+  #2196F3 40%,
+  #4CAF50 40%,
+  #4CAF50 60%,
+  #E91E63 60%,
+  #E91E63 80%,
+  #673AB7 80%
+
+  
+  ) 1 ; 
+ 
+}

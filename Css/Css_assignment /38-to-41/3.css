@@ -1,0 +1,66 @@
+.p {
+  width: 550px;
+}
+
+.p .a,
+.p .b{
+  width: 180px;
+  position: relative;
+  background-color: #eee;
+  height: 200px;
+  float: left;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+.p .a::after{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: lightblue;
+  right: -20px;
+  top: 0;
+  z-index: 4;
+}
+.p .a::before{
+  content: "or";
+   color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #03A9F4;
+  right: -29px;
+  top: 50%;
+  border-radius: 50%;
+  margin: -10px auto;
+  text-align: center;
+  z-index: 6;
+}
+.circle ,
+.circle2 {
+  width: 80%;
+  position: absolute;
+  height:70%;
+  margin: auto -70px ;
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 50%;
+  top :20%;
+  left:50%;
+  text-align: center;
+  font-size: 200%;
+}
+.price {
+  margin-top: 35%;
+}
+.type {
+  position: absolute;
+  width: 80%;
+  background-color: #03A9F4;
+  margin: 10px 10%;
+  height: 25px;
+  color: white;
+  text-align: center;
+  border-radius: 5%;
+  font-weight: bold;
+}

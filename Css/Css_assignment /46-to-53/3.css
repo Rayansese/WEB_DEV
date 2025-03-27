@@ -1,0 +1,51 @@
+div {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 180px;
+  color : white;
+  margin: 5px;
+  background-color: #607D8B;
+  /* align-content: flex-end; */
+  /* justify-content: center; */
+  /*align-items: center; */
+justify-content:center;/*توسيط الكلام أفقيًا */
+align-items: center; /* توسيط الكلام عموديًا */
+height: 140px;
+}
+.parent {
+   width: 600px;
+   height: 300px;
+   background-color: #eee;
+   flex-wrap: wrap;
+ }
+ .one {
+   align-items: center;
+   /* flex-wrap: wrap-reverse; */
+height: 40px;
+   order: 6; 
+  justify-content: center; 
+  align-content: flex-end;
+  align-self: flex-end;
+  
+ }
+ .two {
+   order: 5;
+ }
+ .three {
+   order: 2;
+   align-self: flex-start;
+   height: 40px;
+ }
+ .four {
+   order: 3;
+ }
+ .five {
+   order: 4;
+   margin-top: 0;
+   height: 145px;
+ }
+ .six {
+   margin-bottom: 0;
+   height: 145px;
+ }
+ 

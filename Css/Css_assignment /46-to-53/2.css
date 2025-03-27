@@ -1,0 +1,21 @@
+div {
+  display:inline-flex;
+  background-color: red;
+  color: white;
+  justify-content: center;
+width: 170px;
+align-items: flex-end;
+  padding: 10px;
+  flex-wrap: wrap;
+  /*margin-bottom: 220px; */
+  align-items: 
+}
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;   
+  width: 600px;
+  height: 300px;
+  background-color: #eee;
+flex-wrap: wrap;
+}

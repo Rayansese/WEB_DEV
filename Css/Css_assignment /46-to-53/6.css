@@ -1,0 +1,8 @@
+div {
+  background-color: #eee;
+  display: flex;
+  padding: 10px;
+}
+.logo {
+  order: 1;
+}

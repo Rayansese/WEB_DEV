@@ -1,0 +1,90 @@
+/*p {
+  margin: 10px auto;
+  background-color: #eee;
+  width: 400px;
+  padding: 10px;
+  border-left: 4px solid #E91E63;
+  position: relative;
+  padding-left: 10px;
+}
+
+p::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-right: 10px solid #E91E63;
+  left: -23px;
+  top: 50%;
+  border-width: 10px;
+  background-color: white;
+  border-style: solid;
+  height: 0;
+  border-color: transparent #E91E63 transparent transparent;
+  margin-top: -10px
+}
+
+p[data-person="Osama"]::before {
+  position: relative;
+  content: "Osama";
+  padding: 10px;
+  left: -190px;
+  background-color: #eee;
+  top: 50%;
+}
+
+p[data-person="Ahmed"]::before {
+  position: relative;
+  content: "Ahmed";
+  padding: 10px;
+  left: -190px;
+  background-color: #eee;
+  top: 50%;
+}
+
+p[data-person="Sayed"]::before {
+  position: relative;
+  content: "Sayed";
+  padding: 10px;
+  left: -190px;
+  background-color: #eee;
+  top: 50%;
+}*/
+p {
+  margin: 10px auto;
+  background-color: #eee;
+  width: 400px;
+  padding: 10px;
+  border-left: 4px solid #E91E63;
+  position: relative;
+  padding-left: 10px;
+}
+
+/* السهم */
+p::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent #E91E63 transparent transparent;
+  left: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* اسم الشخص */
+p[data-person]::before {
+  position: absolute;
+  content: attr(data-person);
+  padding: 5px 10px;
+  left: -150px;
+  background-color: #eee;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
